@@ -1,7 +1,7 @@
 //! Atomic hash table. Allows thread-safe atomic hash table insertions without
 //! needing locks
 
-#![feature(const_generics)]
+#![feature(generic_const_exprs)]
 #![allow(incomplete_features)]
 #![no_std]
 
